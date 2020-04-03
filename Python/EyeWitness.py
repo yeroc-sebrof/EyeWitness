@@ -10,6 +10,8 @@ import sys
 import time
 import webbrowser
 
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
+
 from modules import db_manager
 from modules import objects
 from modules import selenium_module
